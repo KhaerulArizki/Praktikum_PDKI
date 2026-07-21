@@ -1,0 +1,594 @@
+# Nmap 7.99 scan initiated Mon Jul 20 09:30:23 2026 as: nmap -sV -sC -oN service_bgn.txt www.bgn.go.id
+Nmap scan report for www.bgn.go.id (110.239.78.83)
+Host is up (0.060s latency).
+Other addresses for www.bgn.go.id (not scanned): 110.239.78.90
+rDNS record for 110.239.78.83: ecs-110-239-78-83.compute.hwclouds-dns.com
+Not shown: 894 closed tcp ports (reset)
+PORT      STATE    SERVICE         VERSION
+25/tcp    filtered smtp
+80/tcp    open     http            CW
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|_http-server-header: CW
+|_http-title: Did not follow redirect to https://www.bgn.go.id/
+81/tcp    open     hosts2-ns?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+82/tcp    open     xfer?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+83/tcp    open     mit-ml-dev?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+84/tcp    open     ctf?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+85/tcp    open     mit-ml-dev?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+88/tcp    open     kerberos-sec?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+89/tcp    open     su-mit-tg?
+90/tcp    open     dnsix?
+|_ssl-date: TLS randomness does not represent time
+| tls-nextprotoneg: 
+|_  http/1.1
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+144/tcp   open     news?
+280/tcp   open     http-mgmt?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+443/tcp   open     ssl/https       CW
+|_http-generator: Astro v5.18.1
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-server-header: CW
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=*.bgn.go.id
+| Subject Alternative Name: DNS:*.bgn.go.id, DNS:bgn.go.id
+| Not valid before: 2026-02-09T00:00:00
+|_Not valid after:  2027-03-06T23:59:59
+|_http-title: Badan Gizi Nasional | Layanan Unggulan untuk Masa Depan Sehat ...
+587/tcp   open     submission?
+|_smtp-commands: Couldn't establish connection on port 587
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+800/tcp   open     mdbs_daemon?
+808/tcp   open     ccproxy-http?
+888/tcp   open     accessbuilder?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:30:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+995/tcp   open     ssl/pop3s?
+| tls-nextprotoneg: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+1000/tcp  open     cadlock?
+1001/tcp  open     webpush?
+1090/tcp  open     ff-fms?
+1102/tcp  open     tcpwrapped
+1688/tcp  open     tcpwrapped
+3000/tcp  open     tcpwrapped
+3128/tcp  open     tcpwrapped
+3333/tcp  open     tcpwrapped
+4006/tcp  open     tcpwrapped
+4443/tcp  open     tcpwrapped
+4444/tcp  open     tcpwrapped
+5000/tcp  open     tcpwrapped
+5001/tcp  open     tcpwrapped
+5080/tcp  open     tcpwrapped
+5100/tcp  open     tcpwrapped
+5222/tcp  open     tcpwrapped
+| xmpp-info: 
+|   STARTTLS Failed
+|   info: 
+|     unknown: 
+|     capabilities: 
+|     xmpp: 
+|     features: 
+|     auth_mechanisms: 
+|     compression_methods: 
+|     errors: 
+|_      (timeout)
+5555/tcp  open     tcpwrapped
+6001/tcp  open     tcpwrapped
+6666/tcp  open     tcpwrapped
+6699/tcp  open     tcpwrapped
+6788/tcp  open     tcpwrapped
+6789/tcp  open     tcpwrapped
+6969/tcp  open     tcpwrapped
+7000/tcp  open     tcpwrapped
+7001/tcp  open     tcpwrapped
+7002/tcp  open     tcpwrapped
+7004/tcp  open     tcpwrapped
+7019/tcp  open     tcpwrapped
+7025/tcp  open     tcpwrapped
+7070/tcp  open     tcpwrapped
+7443/tcp  open     tcpwrapped
+7777/tcp  open     tcpwrapped
+7800/tcp  open     tcpwrapped
+8000/tcp  open     tcpwrapped
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+8001/tcp  open     tcpwrapped
+8002/tcp  open     tcpwrapped
+8007/tcp  open     tcpwrapped
+8008/tcp  open     tcpwrapped
+8009/tcp  open     tcpwrapped
+|_ajp-methods: Failed to get a valid response for the OPTION request
+8010/tcp  open     tcpwrapped
+8011/tcp  open     tcpwrapped
+8021/tcp  open     tcpwrapped
+8022/tcp  open     tcpwrapped
+8080/tcp  open     tcpwrapped
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+8081/tcp  open     tcpwrapped
+8082/tcp  open     tcpwrapped
+8083/tcp  open     tcpwrapped
+8084/tcp  open     tcpwrapped
+8085/tcp  open     tcpwrapped
+8086/tcp  open     tcpwrapped
+8087/tcp  open     tcpwrapped
+8088/tcp  open     tcpwrapped
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+8089/tcp  open     tcpwrapped
+8090/tcp  open     tcpwrapped
+8093/tcp  open     tcpwrapped
+8100/tcp  open     tcpwrapped
+8180/tcp  open     unknown         CW
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+8181/tcp  open     intermapper?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:31:03 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   SSLSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Mon, 20 Jul 2026 02:31:03 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+8200/tcp  open     tcpwrapped
+8443/tcp  open     tcpwrapped
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+| tls-nextprotoneg: 
+|_  http/1.1
+| tls-alpn: 
+|_  http/1.1
+|_http-server-header: CW
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+8800/tcp  open     sunwebadmin?
+8888/tcp  open     sun-answerbook?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:31:03 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8899/tcp  open     ospf-lite?
+9000/tcp  open     cslistener?
+9001/tcp  open     tor-orport?
+9002/tcp  open     dynamid?
+9003/tcp  open     unknown
+9050/tcp  open     tor-socks?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:31:03 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   JavaRMI: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Mon, 20 Jul 2026 02:31:03 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+9080/tcp  open     glrpc?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 20 Jul 2026 02:31:03 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "679257af-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+9081/tcp  open     cisco-aqos?
+9090/tcp  open     ssl/http        nginx
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-server-header: CW
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+9091/tcp  open     xmltec-xmlmail?
+| fingerprint-strings: 
+|   drda, informix: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Mon, 20 Jul 2026 02:31:03 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+9099/tcp  open     unknown
+| fingerprint-strings: 
+|   JavaRMI, drda, informix: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Mon, 20 Jul 2026 02:31:06 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+9100/tcp  open     jetdirect?
+9200/tcp  open     wap-wsp?
+9207/tcp  open     wap-vcal-s?
+9503/tcp  open     unknown
+| tls-nextprotoneg: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+9898/tcp  open     monkeycom?
+9929/tcp  open     nping-echo?
+9999/tcp  open     ssl/http        nginx
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+| tls-nextprotoneg: 
+|_  http/1.1
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+10000/tcp open     tcpwrapped
+10001/tcp open     tcpwrapped
+10002/tcp open     tcpwrapped
+10003/tcp open     tcpwrapped
+12345/tcp open     tcpwrapped
+14000/tcp open     tcpwrapped
+19101/tcp open     tcpwrapped
+20000/tcp open     tcpwrapped
+9 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2020
+SF:\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port81-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2020
+SF:\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port82-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2020
+SF:\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port83-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2020
+SF:\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port84-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2020
+SF:\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port85-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2020
+SF:\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port88-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2020
+SF:\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port280-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r
+SF:(GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x202
+SF:0\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCo
+SF:ntent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-88
+SF:2\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:1
+SF:00%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=
+SF:\"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20
+SF:content=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\x
+SF:be\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;ma
+SF:rgin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/cs
+SF:s\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backg
+SF:round:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-s
+SF:ize:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x
+SF:91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-wei
+SF:ght:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20l
+SF:inear\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover
+SF:{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\
+SF:x20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port888-TCP:V=7.99%I=7%D=7/20%Time=6A5D884D%P=i686-pc-windows-windows%r
+SF:(GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x202
+SF:0\x20Jul\x202026\x2002:30:37\x20GMT\r\nContent-Type:\x20text/html\r\nCo
+SF:ntent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"679257af-88
+SF:2\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:1
+SF:00%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=
+SF:\"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20
+SF:content=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\x
+SF:be\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;ma
+SF:rgin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/cs
+SF:s\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backg
+SF:round:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-s
+SF:ize:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x
+SF:91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-wei
+SF:ght:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20l
+SF:inear\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover
+SF:{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\
+SF:x20type=\"button\"");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 20 09:32:27 2026 -- 1 IP address (1 host up) scanned in 123.62 seconds
